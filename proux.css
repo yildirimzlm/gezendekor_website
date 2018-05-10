@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.clear{
+    clear: both;
+}
+
+.header{
+    position: relative;
+}
+.header.bg-img{
+    width: 100%;
+}
+.header .bg-img img{
+    width: 45%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header .contact{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 10px;
+    font-family: 'Roboto',sans-serif;
+    box-sizing: border-box;
+}
+.contact h2{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 2.5vw;
+    letter-spacing: 3px;
+
+}
+.contact .contact-block{
+    width: 45%;
+    margin: 0 2.3%;
+    float: left;
+    text-align: center;
+}
+.contact .contact-block h4{
+    text-align: center;
+    color: #e52852;
+    margin-bottom: 10px;
+    font-size: 2vw;
+    letter-spacing: 2px;
+}
+.contact .contact-block p{
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 1.8vw;
+    margin:0 0 20px 0;
+}
+
+
+@media all and (max-width: 1000px) {
+    .header .bg-img img{
+        width: 52%;
+    }
+}
+
+
+
+@media all and (max-width: 800px) {
+    .header .bg-img img{
+        width: 72%;
+    }
+}
+
+
+@media all and (max-width: 600px) {
+    .header .bg-img img{
+        width: 78%;
+    }
+}
+
+
+@media all and (max-width: 485px) {
+    .header .bg-img img{
+        width: 84%;
+    }
+}
+@media all and (max-width: 430px){
+    .contact .contact-block p{
+        font-size: 9px;
+    }
+    .contact .contact-block h4{
+        font-size: 11px;
+    }
+    .contact h2{
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 350px){
+    .contact .contact-block p{
+        font-size: 7.5px;
+    }
+    .contact .contact-block h4{
+        font-size: 9px;
+    }
+    .contact h2{
+        font-size: 11px;
+    }
+}
